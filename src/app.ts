@@ -12,7 +12,9 @@ app.use("/api", router);
 app.use(globalErrorHandler);
 
 app.get("/", (req: Request, res: Response) => {
-  res.send("Hello World!");
+  res.json({
+    message: "Hello world"
+  });
 });
 
 app.use(notFound);
