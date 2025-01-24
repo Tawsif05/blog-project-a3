@@ -11,10 +11,12 @@ const notFound_1 = __importDefault(require("./app/middlewares/notFound"));
 const app = (0, express_1.default)();
 app.use(express_1.default.json());
 app.use((0, cors_1.default)());
-app.use('/api', routes_1.default);
+app.use("/api", routes_1.default);
 app.use(globalErrorHandler_1.globalErrorHandler);
-app.use(notFound_1.default);
-app.get('/', (req, res) => {
-    res.send('Hello World!');
+app.get("/", (req, res) => {
+    res.json({
+        message: "Hello world"
+    });
 });
+app.use(notFound_1.default);
 exports.default = app;
