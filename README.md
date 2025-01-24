@@ -58,7 +58,7 @@ Make sure the following software/tools are installed on your system:
 
 ## Video Explanation
 
-- Watch the explanation: https://drive.google.com/file/d/1cemgRNTeE-W6cfKlHNelWv0pl-y2FJEd/view?usp=sharing
+- Watch the explanation: https://drive.google.com/file/d/19KJanJVWFXzyfhvzvahkw-_X0RklBDXZ/view?usp=sharing
 
 
 ##
