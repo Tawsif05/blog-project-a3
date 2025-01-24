@@ -54,7 +54,7 @@ Make sure the following software/tools are installed on your system:
 
 ## Live Link
 
-- Deployed at: https://book-store-a2.vercel.app/
+- Deployed at: https://blog-project-a3-psi.vercel.app/
 
 ## Video Explanation
 
